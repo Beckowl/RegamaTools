@@ -10,8 +10,8 @@ internal class NoTextureMaterial
     [HarmonyPostfix]
     private static void SetMaterialProperties(MVMaterialRepository __instance)
     {
-        __instance.noMaterial.name = "No material";
-        __instance.noMaterial.description = "The forbidden material.";
+        __instance.noMaterial.name = "No Texture";
+        __instance.noMaterial.description = "The forbidden material!";
         __instance.noMaterial.isUnlocked = true;
     }
 
