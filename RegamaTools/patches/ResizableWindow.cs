@@ -21,6 +21,9 @@ internal class ResizableWindow
 
     private static void SetWindowResizable()
     {
+        if (UXUtils.UXScreen.Fullscreen)
+            return;
+
         IntPtr hWnd = GetActiveWindow();
         int style = GetWindowLong(hWnd, GWL_STYLE);
         style |= WS_SIZEBOX | WS_MAXIMIZEBOX;
