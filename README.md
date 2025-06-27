@@ -2,7 +2,7 @@
 
 ### An equivalent of [KogamaTools](https://https://github.com/Beckowl/KogamaTools) for Regama.
 
-**This project is still a work in progress. Currently, it has no interface and is just a collection of QOL features.**
+**This project is still a work in progress/proof of concept. Currently, it has no interface and is just a collection of QOL features.**
 
 # Features:
 - Removes the build limit;
