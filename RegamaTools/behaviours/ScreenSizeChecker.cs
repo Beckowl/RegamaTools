@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 
+namespace RegamaTools.behaviours;
+
 public class ScreenSizeChecker : MonoBehaviour
 {
     public static ScreenSizeChecker Instance;

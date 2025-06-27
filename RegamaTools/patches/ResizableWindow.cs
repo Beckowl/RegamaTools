@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using HarmonyLib;
+using RegamaTools.behaviours;
 
 namespace RegamaTools.patches;
 
